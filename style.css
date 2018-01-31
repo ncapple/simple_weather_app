@@ -1,0 +1,72 @@
+*{
+    padding: none;
+    margin: 10px auto;
+    background-color: rgb(158, 155, 155);
+    /* border: 1px solid red; */
+}
+
+#wrapper{
+    margin: 20px;
+    padding: 0px;
+}
+
+#header{
+    background-color: rgb(69, 226, 253);
+    width: 100%;
+    height: 100px;
+    border-radius: 60px; 
+}
+
+#header h1{
+    display: inline-block;
+    margin-left: 35%;
+    margin-top: 2.25%;
+    background-color: rgb(69, 226, 253);
+}
+
+#weather, child{
+    width: 100%;
+    background-color: rgb(69, 226, 253); 
+    border-radius:60px; 
+    /* margin: 10px; */
+}
+form{
+    display: inline-block;
+    background-color: rgb(69, 226, 253);
+    margin-left: 38%;
+
+}
+
+input, label{
+    margin: 10px 5px;
+    background-color:  rgb(69, 226, 253);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#sub{
+    background-color: slateblue;
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#txt{
+    background-color: azure;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#weather{
+    width: 100%;
+    background-color: rgb(69, 226, 253); 
+    border-radius:60px;
+    /* height: 200px; */
+    padding-bottom: 10px;
+}
+
+#weather h1{
+    display: inline-block;
+    background-color: rgb(69, 226, 253); 
+    margin-left: 45%;
+}
